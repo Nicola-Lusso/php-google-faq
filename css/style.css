@@ -1,0 +1,117 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #5f6368;
+}
+
+span{
+  color: #3367d6;
+  cursor: pointer;
+}
+
+span:hover{
+  text-decoration: underline;
+}
+
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.nav-top{
+  padding: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-left{
+  display: flex;
+}
+
+.top-left h4{
+  margin-top: 5px;
+}
+
+.logo-google{
+  width: 80px;
+  margin-right: 10px;
+}
+
+.logo-google img{
+  width: 100%;
+}
+
+.nav-bottom{
+  padding: 0px 0px 10px 20px;
+}
+
+.nav-bottom ul li{
+  padding-right: 30px;
+  font-weight: bold;
+}
+
+.nav-bottom ul li:last-child a{
+  padding-right: 0px;
+  padding-bottom: 8px;
+  color: #3367d6;
+  border-bottom: 2px solid #3367d6;
+}
+
+main h2{
+  padding-top: 70px;
+}
+
+main p{
+  padding-top: 35px;
+}
+
+main ol{
+  padding-left: 20px;
+}
+
+main ol li{
+  padding-left: 15px;
+  padding-top: 20px;
+}
+
+main a,
+main a:hover{
+  color: #3367d6;
+}
+
+main a:hover{
+  text-decoration: underline;
+}
+
+footer{
+  height: 35px;
+  margin-top: 70px;
+  background-color: #F5F5F5;
+}
+
+footer .container{
+display: flex;
+justify-content: space-between;
+}
+
+footer ul,
+footer .lingua{
+  line-height: 35px;
+}
+
+footer ul li{
+  font-size: 12px;
+  padding-right: 10px;
+}
